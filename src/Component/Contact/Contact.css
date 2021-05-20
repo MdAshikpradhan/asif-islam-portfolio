@@ -1,0 +1,37 @@
+.bgColor{
+    background-image: linear-gradient(#4ca1af, #c4e0e5);
+    height: 100%;
+}
+.sendEmailBtn{
+    width: 120px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 3px solid rgb(66, 199, 199);
+    transition: all linear 0.3s;
+}
+.sendEmailBtn:hover{
+    background-color: rgb(0, 0, 0);
+    border: 3px solid rgb(255, 255, 255);
+    color: #fff;
+}
+
+.sendIcon{
+    font-size: 25px;
+    color: #4ca1af;
+}
+
+.info{
+    color: rgb(68, 8, 8);
+    padding: 20px;
+}
+
+.infoContainer{
+    height: 100%;
+    background: #ffffff5b;
+    color: #333;
+    text-align: left;
+    border-radius: 20px;
+    margin-bottom: 30px;
+
+}

@@ -1,0 +1,9 @@
+.navText{
+    font-size: 20px;
+    padding: 5px 10px 5px 10px ;
+    transition: all linear 0.3s;
+}
+.navText:hover{
+    background: #fff;
+    color: #000;
+}
