@@ -1,9 +1,8 @@
 .serviceDiv{
     background-color: rgba(175, 196, 206, 0.671);
     width: 100%;
-    height: 200px;
+    height: 100%;
     margin-top: 30px;
-    margin-bottom: 20px;
     padding: 20px;
     border-radius: 10px;
     transition: all linear 0.3s;
@@ -14,8 +13,16 @@
     color: white;
 }
 
+.skillIcons{
+    width: 100%;
+    height: 180px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
 .SocialIcons{
     display: inline;
+    text-decoration: none;
     border: 1px solid lightgray;
     border-radius: 50%;
     font-size: 20px;
@@ -25,17 +32,32 @@
     justify-content: center;
     align-items: center;
 }
-
+.SocialIcons:hover{
+    background-color: #fff;
+    border: 1px solid black;
+}
+.socialIcon >span > a {
+    text-decoration: none;
+    color: black;
+}
+.BrandBtn > a{
+    text-decoration: none;
+        color: #333;
+}
 .BrandBtn{
     width: 160px;
     padding: 10px;
+    font-size: 25px;
     border: 1px solid rgb(0, 140, 255);
     border-radius: 10px;
     transition: all linear 0.3s;
 }
 .BrandBtn:hover{
     border: 1px solid #fff;
-    background-color: #4ca1af;
+    background-color: #333;
+    color: #fff;
+}
+.BrandBtn:hover > a{
     color: #fff;
 }
 .Typewriter{

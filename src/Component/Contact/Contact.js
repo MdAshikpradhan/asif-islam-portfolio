@@ -1,8 +1,6 @@
 import React from 'react';
-import Navbar from '../../Shared/Navbar/Navbar';
 import emailjs from 'emailjs-com';
 import './Contact.css';
-import Footer from '../../Shared/Footer/Footer';
 
 const Contact = () => {
     const sendEmail = (e) => {

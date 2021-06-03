@@ -1,24 +1,33 @@
-.cardContainer {
+.productCard {
     transition: all linear .3s;
 }
-.cardContainer:hover {
+.productCard:hover {
     margin-top: -5px;
 }
-.cardBg{
-    display: flex;
-    height: 300;
+
+.projectLink >p {
+    font-size: 20px;
+}
+.projectLink >p >a{
+    text-decoration: none;
+    color: #fff;
+}
+.projectLink >p >a:hover{
+    text-decoration: none;
+    color: blue;
+}
+
+.carDbg{
+    height: 700px;
     background-image: linear-gradient(#141e30   , #243b55);
     border-radius: 10px;
-    border: 5px solid #3486bd;
+    border: -5px solid #3486bd;
     padding: 20px;
-    justify-content: center;
-    align-items: center;
 }
 
 .projectImg{
     width: 100%;
     height: 300px;
-    border: 5px solid #3c81af;
     border-radius: 10px;
 
 }

@@ -20,7 +20,7 @@ const Footer = () => {
                     <div className="socialIcon mt-3 mb-3">
                             <span><a href=""><i className="SocialIcons fab fa-github"></i></a></span>
                             <span><a href="https://www.linkedin.com/in/md-ashik-pradhan-20b904210/"><i className="SocialIcons fab fa-linkedin-in"></i></a></span>
-                            <span><i className="SocialIcons fab fa-twitter"></i></span>
+                            <span><a href="https://twitter.com/ASHIKPRODHAN2"><i className="SocialIcons fab fa-twitter"></i></a></span>
                             <span><a href="https://www.facebook.com/wasif.islam.33865"><i className="SocialIcons fab fa-facebook"></i> </a></span>
                     </div>
                 <div><p>All Copy Right By ashikpradhan.com</p></div>

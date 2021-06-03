@@ -6,12 +6,15 @@ import Contact from '../Contact/Contact';
 import './About.css';
 import Portfolio from '../Portfolio/Portfolio';
 import Blog from '../Blog/Blog';
+import Asif from '../../images/ashik.jpg';
 
 
 const About = () => {
     return (
         <div className="bgColor">
-            <Navbar />
+            <div className ="navBarSticky" >
+                < Navbar />
+            </div>
             <div className="container mt-5">
                 <div className="row">
                     <div className="col-md-6">
@@ -36,40 +39,43 @@ const About = () => {
                         <div className="socialIcon mt-3 mb-3">
                             <span><a href=""><i className="SocialIcons fab fa-github"></i></a></span>
                             <span><a href="https://www.linkedin.com/in/md-ashik-pradhan-20b904210/"><i className="SocialIcons fab fa-linkedin-in"></i></a></span>
-                            <span><i className="SocialIcons fab fa-twitter"></i></span>
-                            <span><a href="https://www.facebook.com/wasif.islam.33865"><i className="SocialIcons fab fa-facebook"></i> </a></span>
+                            <span><a href="https://twitter.com/ASHIKPRODHAN2"><i className="SocialIcons fab fa-twitter"></i></a></span>
+                            <span><a href="https://www.facebook.com/wasif.islam.33865"><i className="SocialIcons fab fa-instagram"></i> </a></span>
                         </div>
-                        <button className="BrandBtn"><a href="https://drive.google.com/file/d/1P0c56MplUAEaTPvJHF7LtDj0S4bVOkN2/view?usp=sharing">Download Resume</a></button>
-                        <p className="text-light">I am a web developer from Bangladesh. I like to learn new technologies of interest and apply them in real life </p>
+                        <a href="https://drive.google.com/file/d/1P0c56MplUAEaTPvJHF7LtDj0S4bVOkN2/view?usp=sharing"><button className="BrandBtn mt-3">Resume <i class="fas fa-download"></i></button></a>
+                        <h6 className="text-light mt-3">I am a  front-end developer, capable of creating and deploying single-page applications with Mobile-first responsive. Very keen to learn new technology and love to work realistically with it. My passion will make me more proficient in this field. I am looking for a good company that will help me become more expert in the IT field. </h6>
                     </div>
                     <div className="col-md-6">
-                    <img src="https://images.unsplash.com/photo-1466112928291-0903b80a9466?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cHJvZmlsZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80" alt="" className="homeImg"/>
+                    <img src={Asif} alt="" className="homeImg"/>
                     </div>
                 </div>
-                <h1 className="text-center mt-5 pt-5"> <span className="text-primary mb-5">M</span>y Services</h1>
+                <h1 className="text-center text-light mt-5 pt-5">My Services</h1>
                 <div className="row">
-                    <div className="col-md-4">
-                        <div className="serviceDiv">
+                    <div className="col-md-4 mt-3">
+                        <div className="serviceDiv text-center">
+                            <img src="https://apisproductions.com/wp-content/uploads/2021/01/AdobeStock_239400336-Cropped-1024x585.png" className="skillIcons" alt=""/>
                             <h2>Web Design</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, minima.s</p>
+                            <p>I am a web designer. I have done a lot of design with respectively.</p>
                         </div>
                     </div>
-                    <div className="col-md-4">
-                        <div className="serviceDiv">
+                    <div className="col-md-4 mt-3">
+                        <div className="serviceDiv text-center">
+                            <img src="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/176666242/original/3064fe8d34bd42910b873273f9c78a293951a5e6/convert-phd-to-html-and-css-with-bootstrap.jpg" class="skillIcons" alt=""/>
                             <h2>PHD TO HTML</h2>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            <p>I can convert Phd to Html with mobile responsive. I am using Html, css, Bootstrap.</p>
                         </div>
                     </div>
-                    <div className="col-md-4">
-                        <div className="serviceDiv">
+                    <div className="col-md-4 mt-3">
+                        <div className="serviceDiv text-center">
+                        <img src="https://www.kindpng.com/picc/m/95-956807_mern-stack-developer-hd-png-download.png" className="skillIcons" alt="" />
                             <h2>Mern Stack Developer</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, similique.</p>
+                            <p>I am a Mern Stack developer. My main work responsibility is as a front end developer. But I can work with Node.js .</p>
                         </div>
                     </div>
                 </div>
             </div>
             <Portfolio />
-            <Blog />
+            {/* <Blog /> */}
             <Contact />
             <Footer />
         </div>

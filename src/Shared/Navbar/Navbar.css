@@ -7,3 +7,9 @@
     background: #fff;
     color: #000;
 }
+
+.navBarSticky {
+    position: sticky;
+    top: 0;
+    background-color: #141a2f;
+}
